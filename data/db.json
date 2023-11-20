@@ -1,0 +1,199 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nama": "Anissa",
+      "nim": "21/474596/SV/18989",
+      "kelas": "A",
+      "icon": "star",
+      "jeniskelamin": "Perempuan",
+      "color": "#C09EFF"
+    },
+    {
+      "nama": "Shally",
+      "nim": "21/474545/SV/18970",
+      "kelas": "A",
+      "icon": "fish",
+      "jeniskelamin": "Perempuan",
+      "color": "#D2DE32",
+      "id": 2
+    },
+    {
+      "nama": "meong",
+      "nim": "22222",
+      "kelas": "A",
+      "jeniskelamin": "Perempuan",
+      "color": "#C70039",
+      "icon": "cat",
+      "id": 4
+    },
+    {
+      "nama": "MEONGG",
+      "nim": "21/474545/SV/18970",
+      "kelas": "A",
+      "icon": "fish",
+      "color": "#D2DE32",
+      "id": 5
+    },
+    {
+      "nama": "MEONGgg",
+      "nim": "21/474545/SV/18970",
+      "kelas": "A",
+      "icon": "fish",
+      "color": "#D2DE32",
+      "id": 6
+    },
+    {
+      "nama": "KUCING",
+      "nim": "21/474545/SV/18970",
+      "kelas": "A",
+      "icon": "cat",
+      "color": "#D2DE32",
+      "id": 7
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 8
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 9
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 10
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 11
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 12
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 13
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 14
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 15
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 16
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 17
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 18
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 19
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 20
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 21
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 22
+    },
+    {
+      "nama": "",
+      "nim": "",
+      "kelas": "",
+      "jeniskelamin": "",
+      "color": "",
+      "icon": "",
+      "id": 23
+    }
+  ]
+}
