@@ -9,7 +9,7 @@ import { StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native';
 import { WebView } from 'react-native-webview';
 import Getjsonfile from '../Getjsonfile';
-
+import ListData from '../listdata'
 const Tab = createBottomTabNavigator();
 //const webmap = require('../peta/map.html');
 //form input dari github pages
@@ -49,6 +49,16 @@ function AddDataScreen() {
         />
     );
 }
+function ListDataScreen() {
+    return (
+        <View>
+            <ListData>
+
+            </ListData>
+
+        </View>
+    );
+}
 function ProfileScreen() {
     return (
         <View>
@@ -77,7 +87,7 @@ function MyTabs() {
                     options={{
                         tabBarLabel: 'Maps',
                         tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="map" color={"#FFB61A"} size={size} />
+                            <Fontawesome5 name="map" color={"#2D9596"} size={size} />
                         ),
                     }}
                 />
@@ -86,7 +96,16 @@ function MyTabs() {
                     options={{
                         tabBarLabel: 'Add Data',
                         tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="plus-circle" color={"#FFB61A"} size={size} />
+                            <Fontawesome5 name="plus-circle" color={"#B31312"} size={size} />
+                        ),
+                    }}
+                />
+                <Tab.Screen name="List Data"
+                    component={ListDataScreen}
+                    options={{
+                        tabBarLabel: 'List Data',
+                        tabBarIcon: ({ color, size }) => (
+                            <Fontawesome5 name="clipboard-list" color={"#FFB61A"} size={size} />
                         ),
                     }}
                 />
@@ -95,7 +114,7 @@ function MyTabs() {
                     options={{
                         tabBarLabel: 'Profile',
                         tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="user-circle" color={color} size={size} />
+                            <Fontawesome5 name="user-circle" color={"#3D30A2"} size={size} />
                         ),
                     }}
                 />
