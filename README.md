@@ -8,31 +8,34 @@ Aplikasi ini dibangun menggunakan berbagai komponen teknologi yang mendukung fun
 
 - **Frontend**: [Framework atau teknologi frontend yang digunakan]
 React Native
-
+HTML
+Java Script
+Tailwind
+Leaflet
+Fontawsome5
 - **Backend**: [Framework atau teknologi backend yang digunakan]
 Apps Script Google Spread Sheet Extension
-- **Database**: [Jenis dan sistem manajemen database yang digunakan]
-- **Authentication**: [Metode atau layanan autentikasi yang digunakan]
+
 
 ## Sumber Data
 Aplikasi ini mengandalkan beberapa sumber data untuk menyajikan informasi kepada pengguna. Sumber data utama meliputi:
 
-- Input data portal
+- Input data portal yang dapat dilakukan secara langsung
 
 ## Tangkapan Layar Komponen Penting Produk
 Berikut adalah beberapa tangkapan layar yang menunjukkan komponen penting dalam aplikasi:
 
-1. [Tambahkan tangkapan layar pertama]
-   !(src/image1.png)
+1. Home
+   ![Tangkapan Layar 1](src/image1.png)
 
-2. [Tambahkan tangkapan layar kedua]
-   !(src/image2.png)
+2. Peta
+   ![Tangkapan Layar 2](src/image2.png)
 
-3. [Tambahkan tangkapan layar ketiga]
-   !(src/image3.png)
+3. Input data
+   ![Tangkapan Layar 3](src/image3.png)
 
-3. [Tambahkan tangkapan layar ketiga]
-   !(src/image4.png)
+3. Routing
+   ![Tangkapan Layar 3](src/image4.png)
 
-3. [Tambahkan tangkapan layar ketiga]
-   !(src/image5.png)
+3. About Us
+   ![Tangkapan Layar 3](src/image5.png)
