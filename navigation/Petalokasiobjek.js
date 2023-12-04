@@ -18,23 +18,13 @@ const Tab = createBottomTabNavigator();
 const forminput = 'https://anissasephia.github.io/ame/';
 // peta webmap dari github pages
 const webmap = 'https://anissasephia.github.io/ame/map.html';
+const webhome = 'https://anissasephia.github.io/ame/home.html';
 
 function HomeScreen() {
     return (
-        <View>
-            <Text style={styles.title}>APLIKASI PETA LOKASI OBJEK</Text>
-            <Text style={styles.ket}>Aplikasi ini banyak errornya</Text>
-            <View style={styles.container}>
-                <Text style={styles.desc}>Stack: </Text>
-                <Text style={styles.desc}>1. React Native</Text>
-                <Text style={styles.desc}>2. HTML</Text>
-                <Text style={styles.desc}>3. LeafletJS</Text>
-                <Text style={styles.desc}>4. Google Sheets</Text>
-                <Text style={styles.desc}>5. App Script</Text>
-                <Text style={styles.desc}>6. FontAwesome5</Text>
-                <Text style={styles.desc}>7. GitHub</Text>
-            </View>
-        </View>
+        <WebView
+            source={{ uri: webhome }}
+        />
     );
 }
 function MapScreen() {
@@ -60,24 +50,24 @@ function ListDataScreen() {
         </View>
     );
 }
-function ProfileScreen() {
-    return (
-        <View>
-            <Portofolio>
+// function ProfileScreen() {
+//     return (
+//         <View>
+//             <Portofolio>
 
-            </Portofolio>
-        </View>
-    );
-}
-function EditScreen() {
-    return (
-        <View>
-            <Edit>
+//             </Portofolio>
+//         </View>
+//     );
+// }
+// function EditScreen() {
+//     return (
+//         <View>
+//             <Edit>
 
-            </Edit>
-        </View>
-    );
-}
+//             </Edit>
+//         </View>
+//     );
+// }
 
 function MyTabs() {
     return (
@@ -87,8 +77,8 @@ function MyTabs() {
                     component={HomeScreen}
                     options={{
                         tabBarLabel: 'Home',
-                        tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="home" color={"#C09EFF"} size={size} />
+                        tabBarIcon: ({ color, size, focused }) => (
+                            <Fontawesome5 name="home" color={focused ? '#C09EFF' : '#A1A1AA'} size={size}  />
                         ),
                     }}
                 />
@@ -96,8 +86,8 @@ function MyTabs() {
                     component={MapScreen}
                     options={{
                         tabBarLabel: 'Maps',
-                        tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="map" color={"#2D9596"} size={size} />
+                        tabBarIcon: ({ color, size, focused }) => (
+                            <Fontawesome5 name="map" color={focused ? '#C09EFF' : '#A1A1AA'} size={size}  />
                         ),
                     }}
                 />
@@ -105,21 +95,22 @@ function MyTabs() {
                     component={AddDataScreen}
                     options={{
                         tabBarLabel: 'Add Data',
-                        tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="plus-circle" color={"#B31312"} size={size} />
+                        tabBarIcon: ({ color, size, focused }) => (
+                            <Fontawesome5 name="plus-circle" color={focused ? '#C09EFF' : '#A1A1AA'} size={size}  />
                         ),
                     }}
                 />
-                <Tab.Screen name="List Data"
+                <Tab.Screen
+                    name="List Data"
                     component={ListDataScreen}
                     options={{
-                        tabBarLabel: 'List Data',
-                        tabBarIcon: ({ color, size }) => (
-                            <Fontawesome5 name="clipboard-list" color={"#FFB61A"} size={size} />
+                        tabBarLabel: 'Route',
+                        tabBarIcon: ({ color, size, focused }) => (
+                            <Fontawesome5 name="road" color={focused ? '#C09EFF' : '#A1A1AA'} size={size} />
                         ),
                     }}
                 />
-                <Tab.Screen name="Profile"
+                {/* <Tab.Screen name="Profile"
                     component={ProfileScreen}
                     options={{
                         tabBarLabel: 'Profile',
@@ -136,7 +127,7 @@ function MyTabs() {
                             <Fontawesome5 name="user-circle" color={"#3D30A2"} size={size} />
                         ),
                     }}
-                />
+                /> */}
 
             </Tab.Navigator>
         </NavigationContainer>
@@ -180,6 +171,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: '#000',
         fontWeight: 'bold',
-      },
+    },
 })
 

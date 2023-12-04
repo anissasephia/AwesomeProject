@@ -67,6 +67,7 @@ function Callapi() {
                         keyExtractor={({ id }, index) => id}
                         renderItem={({ item }) => (
                             <View>
+
                                 <TouchableOpacity
                                     accessibilityRole="button"
                                     onPress={() => {
@@ -93,15 +94,7 @@ function Callapi() {
                                         </View>
                                     </View>
                                 </TouchableOpacity>
-                                {/* <View style={styles.form}>
-                                    <Button title="Hapus"
-                                        onPress={() => Alert.alert('Hapus data', 'Yakin akan menghapus data ini?', [
-                                            { text: 'Tidak', onPress: () => console.log('button tidak') },
-                                            { text: 'Ya', onPress: () => deleteData(item.id) },
-                                        ])}
-                                        color={'red'}
-                                    />
-                                </View> */}
+
 
                             </View>
 
@@ -161,6 +154,10 @@ const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+    },
+    topView: {
+        height: 50, // or whatever height you want
+        backgroundColor: '#f8f8f8', // or whatever color you want
+        // Add other styles as needed
     }
 })
