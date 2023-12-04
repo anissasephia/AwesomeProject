@@ -23,16 +23,16 @@ Aplikasi ini mengandalkan beberapa sumber data untuk menyajikan informasi kepada
 Berikut adalah beberapa tangkapan layar yang menunjukkan komponen penting dalam aplikasi:
 
 1. [Tambahkan tangkapan layar pertama]
-   ![Tangkapan Layar 1](src/image1.png)
+   !(src/image1.png)
 
 2. [Tambahkan tangkapan layar kedua]
-   ![Tangkapan Layar 2](src/image2.png)
+   !(src/image2.png)
 
 3. [Tambahkan tangkapan layar ketiga]
-   ![Tangkapan Layar 3](src/image3.png)
+   !(src/image3.png)
 
 3. [Tambahkan tangkapan layar ketiga]
-   ![Tangkapan Layar 3](src/image4.png)
+   !(src/image4.png)
 
 3. [Tambahkan tangkapan layar ketiga]
-   ![Tangkapan Layar 3](src/image5.png)
+   !(src/image5.png)
