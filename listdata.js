@@ -9,7 +9,7 @@ import { Linking } from 'react-native';
 
 
 function Callapi() {
-    const jsonUrl = 'https://script.google.com/macros/s/AKfycbzNj5uJpmuiOBtbL7BmxLyMDgzWIC4-1cYM-f1oi4NXaVS5OJVuX02xVfwfMpzoG8j3/exec';
+    const jsonUrl = 'https://script.google.com/macros/s/AKfycbxtwoqqc5NTcBRv0Uj_h5ejvHSvUj0t966Pm6rGFfLau3VhdZXmLGU5uBmQXdD1Yqb5/exec';
     const [isLoading, setLoading] = useState(true);
     const [dataUser, setDataUser] = useState({});
     const [refresh, setRefresh] = useState(false);
@@ -22,7 +22,8 @@ function Callapi() {
             .then((json) => {
                 //console log
                 console.log(json)
-                setDataUser(json)
+                setDataUser(json); //memasukkan data json ke variabel dataUser
+
             })
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
@@ -40,7 +41,6 @@ function Callapi() {
             .finally(() => setLoading(false));
     }
     // function deleteData(id) {
-    //     //ketika menghapus berdasarkan id datanya
     //     fetch(jsonUrl + '/' + id, {
     //         method: 'DELETE',
     //     })
@@ -51,6 +51,7 @@ function Callapi() {
     //             refreshPage();
     //         })
     // }
+
     return (
         <SafeAreaView>
             {isLoading ? (
@@ -74,24 +75,34 @@ function Callapi() {
                                     style={styles.linkContainer}>
                                     <View style={styles.card}>
                                         <View style={styles.avatar}>
-                                            <FontAwesome5 name={item.icon} size={50} color={item.color} />
+                                            <FontAwesome5 name={item.icon} size={50} color="#C09EFF" />
                                         </View>
                                         <View>
                                             <Text style={styles.cardtitle}>{item.nama}</Text>
-                                            <Text style={styles. wrappedText}>Deskripsi:{item.deskripsi}</Text>
+                                            <Text style={styles.wrappedText}>Deskripsi:{item.deskripsi}</Text>
                                             <Text>X:{item.latitude}</Text>
                                             <Text>Y:{item.longitude}</Text>
                                         </View>
                                         <View style={{
-                                            flex:1,
-                                            justifyContent:'center',
-                                            alignItems:'flex-end'
+                                            flex: 1,
+                                            justifyContent: 'center',
+                                            alignItems: 'flex-end'
                                         }}>
                                             <FontAwesome5 name="chevron-right" size={20} color="blue" />
 
                                         </View>
                                     </View>
                                 </TouchableOpacity>
+                                {/* <View style={styles.form}>
+                                    <Button title="Hapus"
+                                        onPress={() => Alert.alert('Hapus data', 'Yakin akan menghapus data ini?', [
+                                            { text: 'Tidak', onPress: () => console.log('button tidak') },
+                                            { text: 'Ya', onPress: () => deleteData(item.id) },
+                                        ])}
+                                        color={'red'}
+                                    />
+                                </View> */}
+
                             </View>
 
                         )}
@@ -115,6 +126,8 @@ const styles = StyleSheet.create({
     },
     avatar: {
         borderRadius: 100,
+        marginTop: 10,
+        marginLeft: 2,
         width: 80,
     },
     cardtitle: {
@@ -145,5 +158,9 @@ const styles = StyleSheet.create({
     form: {
         paddingHorizontal: 20,
         paddingVertical: 10,
+    },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
     }
 })

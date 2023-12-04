@@ -10,6 +10,8 @@ import { ScrollView } from 'react-native';
 import { WebView } from 'react-native-webview';
 import Getjsonfile from '../Getjsonfile';
 import ListData from '../listdata'
+import Edit from '../Editdata'
+
 const Tab = createBottomTabNavigator();
 //const webmap = require('../peta/map.html');
 //form input dari github pages
@@ -55,7 +57,6 @@ function ListDataScreen() {
             <ListData>
 
             </ListData>
-
         </View>
     );
 }
@@ -65,6 +66,15 @@ function ProfileScreen() {
             <Portofolio>
 
             </Portofolio>
+        </View>
+    );
+}
+function EditScreen() {
+    return (
+        <View>
+            <Edit>
+
+            </Edit>
         </View>
     );
 }
@@ -113,6 +123,15 @@ function MyTabs() {
                     component={ProfileScreen}
                     options={{
                         tabBarLabel: 'Profile',
+                        tabBarIcon: ({ color, size }) => (
+                            <Fontawesome5 name="user-circle" color={"#3D30A2"} size={size} />
+                        ),
+                    }}
+                />
+                <Tab.Screen name="Edit"
+                    component={EditScreen}
+                    options={{
+                        tabBarLabel: 'Edit',
                         tabBarIcon: ({ color, size }) => (
                             <Fontawesome5 name="user-circle" color={"#3D30A2"} size={size} />
                         ),
