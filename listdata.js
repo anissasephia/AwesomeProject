@@ -89,7 +89,7 @@ function Callapi() {
                                             justifyContent: 'center',
                                             alignItems: 'flex-end'
                                         }}>
-                                            <FontAwesome5 name="chevron-right" size={20} color="blue" />
+                                            <FontAwesome5 name="chevron-right" size={20} color="#C09EFF" />
 
                                         </View>
                                     </View>

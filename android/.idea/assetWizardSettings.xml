@@ -80,7 +80,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="D:\KoboKan\kuromi.jpg" />
+                                                <entry key="imagePath" value="D:\KoboKan\logopetalss.png" />
                                                 <entry key="scalingPercent" value="83" />
                                               </map>
                                             </option>
@@ -115,7 +115,6 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="generateWebpIcons" value="false" />
                                     </map>
                                   </option>
                                 </PersistentState>

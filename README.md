@@ -25,17 +25,20 @@ Aplikasi ini mengandalkan beberapa sumber data untuk menyajikan informasi kepada
 ## Tangkapan Layar Komponen Penting Produk
 Berikut adalah beberapa tangkapan layar yang menunjukkan komponen penting dalam aplikasi:
 
-1. Home
-   ![Tangkapan Layar 1](src/image1.png)
+## Tangkapan Layar Komponen Penting Produk
+Berikut adalah beberapa tangkapan layar yang menunjukkan komponen penting dalam aplikasi:
 
-2. Peta
-   ![Tangkapan Layar 2](src/image2.png)
+### 1. Home
+![Tangkapan Layar 1](src/image1.png)
 
-3. Input data
-   ![Tangkapan Layar 3](src/image3.png)
+### 2. Peta
+![Tangkapan Layar 2](src/image2.png)
 
-3. Routing
-   ![Tangkapan Layar 3](src/image4.png)
+### 3. Input data
+![Tangkapan Layar 3](src/image3.png)
 
-3. About Us
-   ![Tangkapan Layar 3](src/image5.png)
+### 4. Routing
+![Tangkapan Layar 4](src/image4.png)
+
+### 5. About Us
+![Tangkapan Layar 5](src/image5.png)
