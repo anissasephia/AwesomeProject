@@ -6,15 +6,20 @@ Peta Portal adalah aplikasi yang dirancang untuk memudahkan pengguna mengetahui 
 ## Komponen Pembangun Produk
 Aplikasi ini dibangun menggunakan berbagai komponen teknologi yang mendukung fungsionalitasnya. Berikut adalah beberapa komponen utama:
 
-- **Frontend**: [Framework atau teknologi frontend yang digunakan]
-React Native
-HTML
-Java Script
-Tailwind
-Leaflet
-Fontawsome5
-- **Backend**: [Framework atau teknologi backend yang digunakan]
-Apps Script Google Spread Sheet Extension
+## Technologies Used
+
+This project was built using the following technologies:
+
+### Frontend
+- React Native
+- HTML
+- JavaScript
+- Tailwind CSS
+- Leaflet
+- FontAwesome5
+
+### Backend
+- Apps Script Google Spreadsheet Extension
 
 
 ## Sumber Data
